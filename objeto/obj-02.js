@@ -5,7 +5,9 @@
 // ex.: console.log("tipo de carne: " + carne.tipo)
 
 const filme = {
-    tipo : 'animaçao'
-    filme: meu malvado favorito
-    
+    tipo : 'animaçao',
+    nomeFilme: "meu malvado favorito",
+    preco: 30.0
+    duraçao: 1h35m
+    dataDeLançamento:6 de agosto de 2010
 }
