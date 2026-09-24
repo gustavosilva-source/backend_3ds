@@ -1,14 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="stylesheet" href="../../estilo/index.css">
-    <title>Inicio Doces</title>
+    <title>Doce Encanto | O Menu da Semana</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="../../estilos/index.css">
+    <!-- Ícones minimalistas em linhas (Phosphor Icons) -->
+    <script src="https://unpkg.com"></script>
 </head>
 <body>
-   <h3>Pagina Inicial</h3>
-    <p>Bem-Vindo(a) a Home!</p>
+
+    <!-- NAV BAR (Menu de Navegação com as Rotas Express) -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-texto">Doce<span class="logo-destaque">Encanto</span></span>
+        </div>
+        <nav class="menu-links">
+            <a href="/produtos" class="nav-link">Produtos</a>
+            <a href="/servicos" class="nav-link">Serviços</a>
+            <a href="/sobre" class="nav-link">Sobre Nós</a>
+        </nav>
+        <div class="nav-icones">
+            <a href="#" aria-label="Localização"><i class="ph ph-map-pin"></i></a>
+            <a href="#" aria-label="Perfil"><i class="ph ph-user"></i></a>
+            <a href="#" aria-label="Carrinho"><i class="ph ph-shopping-bag"></i></a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Destaque Principal com Copy Sensorial) -->
+    <main class="hero-container">
+        <section class="hero-conteudo">
+            <div class="badge-escassez">🔥 Menu por Tempo Limitado</div>
+            <h1 class="hero-titulo">Servido quente. <br>Recheio cremoso.</h1>
+            <p class="hero-descricao">
+                Uma experiência instagramável única. Nossa casquinha crocante por fora esconde um sabor que derrete na boca, feito artesanalmente todos os dias.
+            </p>
+            <div class="hero-acoes">
+                <a href="/produtos" class="btn-principal">Peça Agora</a>
+                <a href="/servicos" class="btn-secundario">Encomendas para Eventos</a>
+            </div>
+        </section>
+        
+        <section class="hero-imagem">
+            <!-- Imagem conceitual simulando o produto em altíssima resolução com fundo infinito -->
+            <div class="produto-card-principal">
+                <img src="https://unsplash.com" alt="Cookie artesanal com gotas de chocolate derretendo">
+                <div class="produto-tag">Menu da Semana</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BANNER DE DESTAQUE SEMANAL -->
+    <section class="barra-info">
+        <div class="info-item">
+            <i class="ph ph-sparkles"></i>
+            <span>Novos sabores toda semana</span>
+        </div>
+        <div class="info-item">
+            <i class="ph ph-truck"></i>
+            <span>Entrega rápida e quentinha</span>
+        </div>
+        <div class="info-item">
+            <i class="ph ph-cookie"></i>
+            <span>Ingredientes selecionados</span>
+        </div>
+    </section>
+
 </body>
 </html>
